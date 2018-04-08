@@ -1719,7 +1719,7 @@ select::-ms-expand {
     border: 3px solid #22201f;
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
-    letter-spacing: 1.2px;
+    letter-spacing: 1px;
     z-index: 3;
     text-decoration: none;
 }
