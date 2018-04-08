@@ -1604,10 +1604,6 @@ select::-ms-expand {
 
 .building{
 	width: calc(33.333% - 13.333px);
-	display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
 	height: 290px;
 	background-size: cover;
 	position: relative;
@@ -1738,11 +1734,11 @@ select::-ms-expand {
 }
 
 .video-list{
+	display: -webkit-box;
 	display: -webkit-flex;
 	display: -moz-flex;
 	display: -ms-flex;
 	display: -o-flex;
-	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
 	-webkit-flex-wrap: wrap;
