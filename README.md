@@ -1,1 +1,0 @@
-# roman-palmer.github.io
