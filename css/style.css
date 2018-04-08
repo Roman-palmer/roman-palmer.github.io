@@ -1604,10 +1604,15 @@ select::-ms-expand {
 
 .building{
 	width: calc(33.333% - 13.333px);
+	-webkit-box-flex: 1 0 calc(33.333% - 13.333px);
+    -webkit-flex: 1 0 calc(33.333% - 13.333px);
+    -ms-flex: 1 0 calc(33.333% - 13.333px);
+    flex: 1 0 calc(33.333% - 13.333px);
 	height: 290px;
 	background-size: cover;
 	position: relative;
 	margin: 0 20px 20px 0;
+
 }
 
 .building:nth-child(3n){
