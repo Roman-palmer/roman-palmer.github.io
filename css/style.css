@@ -1582,11 +1582,11 @@ select::-ms-expand {
 }
 
 .buildings{
-	display: -webkit-flex;
+	display: -webkit-box;
 	display: -moz-flex;
 	display: -ms-flex;
 	display: -o-flex;
-	display: -webkit-box;
+	display: -webkit-flex;
 	display: -ms-flexbox;
 	display: flex;
 	-webkit-flex-wrap: wrap;
