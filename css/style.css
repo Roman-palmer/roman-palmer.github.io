@@ -1593,6 +1593,8 @@ select::-ms-expand {
 	-ms-flex-wrap: wrap;
 	-o-flex-wrap: wrap;
 	flex-wrap: wrap;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
 	-webkit-justify-content: space-around;
 	    -ms-flex-pack: distribute;
 	        justify-content: space-around;
