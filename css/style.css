@@ -1604,10 +1604,10 @@ select::-ms-expand {
 
 .building{
 	width: calc(33.333% - 13.333px);
-	-webkit-box-flex: 1 0 calc(33.333% - 13.333px);
-    -webkit-flex: 1 0 calc(33.333% - 13.333px);
-    -ms-flex: 1 0 calc(33.333% - 13.333px);
-    flex: 1 0 calc(33.333% - 13.333px);
+	display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
 	height: 290px;
 	background-size: cover;
 	position: relative;
