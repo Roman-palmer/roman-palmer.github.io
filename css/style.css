@@ -250,6 +250,7 @@ select::-ms-expand {
 	position: relative;
 	margin: 0 0 0 -3px;
     height: 45px;
+    text-decoration: none;
 }
 
 .logo__img{
