@@ -1721,6 +1721,7 @@ select::-ms-expand {
             box-sizing: border-box;
     letter-spacing: 1.2px;
     z-index: 3;
+    text-decoration: none;
 }
 
 .logo--white:before{
