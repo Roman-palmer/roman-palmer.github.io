@@ -94,9 +94,12 @@ $(document).ready(function() {
     var feed = new Instafeed({
         get: 'user',
         target: 'feed',
-        template: '<div class="col-lg-6 col-md-6 col-sm-4 col-xs-6"><a href="{{link}}" class="zoomlink"><img src="{{image}}" alt=""></a></div>',
+        template: '<div class="col-lg-3 col-md-3 col-sm-4 col-xs-6"><a href="{{link}}" class="zoomlink"><img src="{{image}}" alt=""></a></div>',
 		userId: '3234940210',
-		accessToken: '3234940210.1677ed0.19e4070b527141cc855381d4396338d5'
+		accessToken: '3234940210.1677ed0.19e4070b527141cc855381d4396338d5',
+		limit: 6,
+		resolution: 'standart_resolution'
+
     });
     feed.run();
 
