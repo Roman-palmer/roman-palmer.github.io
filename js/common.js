@@ -90,10 +90,10 @@ $(document).ready(function() {
 		autoWidth: true,
 	});
 
-	//instafeed
+	// Instafeed
     var feed = new Instafeed({
         get: 'user',
-		 userId: 'roma.palmer',
+		 userId: '3234940210',
 		 accessToken: '3234940210.1677ed0.19e4070b527141cc855381d4396338d5'
     });
     feed.run();
