@@ -124,7 +124,6 @@ $(document).ready(function() {
 	$( window ).resize(function() {
 		if ($(window).width() <= 992) {
 			$("#feed").removeClass('instaphotos--first-photo');
-			console.log($(window).width())
 		}else{
 			$("#feed").addClass('instaphotos--first-photo');
 		}
