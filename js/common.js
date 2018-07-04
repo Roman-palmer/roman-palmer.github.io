@@ -76,7 +76,8 @@ $(document).ready(function() {
 		autoplayTimeout: 5000,
 		mouseDrag: false
 	});
-	$('#instslider').owlCarousel({
+
+  	$('#instslider').owlCarousel({
 		items: 1,
 		margin: 20,
 		nav: false,
@@ -90,6 +91,24 @@ $(document).ready(function() {
 		autoWidth: true,
 	});
 
+	//insta resize first photo
+	var owl = $('#instslider');
+	$( window ).resize(function() {
+	  if ($(window).width() <= 768) {
+	  	$("#feed").removeClass('instaphotos--first-photo');
+	  }else{
+	  	$("#feed").addClass('instaphotos--first-photo');
+	  }
+	});
+	$( window ).resize();
+
+	$("#click").click(function(e) {
+	    e.preventDefault(); //-- prevent form submit
+	    $('#instslider').trigger('add.owl.carousel', [$('#instslider item')])
+	        .trigger('refresh.owl.carousel');
+	        console.log($('#instslider item'));
+	});
+
 	// Instafeed
     var feed = new Instafeed({
         get: 'user',
@@ -97,8 +116,21 @@ $(document).ready(function() {
         template: '<div class="col-lg-3 col-md-3 col-sm-4 col-xs-6"><a href="{{link}}" class="zoomlink"><img src="{{image}}" alt=""></a></div>',
 		userId: '3234940210',
 		accessToken: '3234940210.1677ed0.19e4070b527141cc855381d4396338d5',
-		limit: 6,
-		resolution: 'standart_resolution'
+		limit: 5,
+		resolution:'standard_resolution'
+
+    });
+    feed.run();
+
+    // Instafeed slider
+    var feed = new Instafeed({
+        get: 'user',
+        target: 'instslider',
+        template: '<div class="item"><a href="{{link}}" class="zoomlink"><img src="{{image}}" alt=""></a></div>',
+		userId: '3234940210',
+		accessToken: '3234940210.1677ed0.19e4070b527141cc855381d4396338d5',
+		limit: 5,
+		resolution:'standard_resolution'
 
     });
     feed.run();

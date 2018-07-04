@@ -1856,3 +1856,8 @@ input.btn {
   line-height: 28px;
   margin: 0 0 24px;
 }
+
+.instaphotos--first-photo div:first-child{
+  width: 585px !important;
+  height: 585px !important;
+}

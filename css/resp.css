@@ -47,6 +47,11 @@
     max-width: 210px;
     margin: 9px 0 0;
   }
+
+  .instaphotos--first-photo div:first-child{
+    width: 485px !important;
+    height: 485px !important;
+  }
 }
 @media (max-width: 992px) {
   body {
