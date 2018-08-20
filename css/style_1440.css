@@ -1,0 +1,819 @@
+@media (max-width: 1899px) {
+.div_curbstone{
+width:100%;
+margin-bottom:15px;
+}
+.div_curbstone_group{
+margin-bottom:35px;
+}
+.div_select_card{
+float:none;
+width:100%;
+margin-bottom:30px;
+margin-left:0;
+}
+.characteristics{
+clear:both;
+width:100%;
+float:none;
+}
+.card_button.card_button_new{
+width:100%;
+float:none;
+padding-top:40px;
+}
+.div_curbstone_price {
+    padding-top: 25px;
+    float: none;
+}
+}
+@media (max-width: 1440px) {
+    .aquarium_item {
+        width: 33.3%;
+    }
+	.item_aquarium{
+	width: 33.3%;
+	}
+	.gallery_item{
+	width:33.3%;
+	}
+	.aquariums_layout{
+	    margin-right: 0;
+	}
+    .aquarium_empty{
+        display: none;
+    }
+    .aquarium_empty2{
+        display: block;
+    }
+    .how_order:before {
+        top: -150px;
+        width: 400px;
+        height: 400px;
+        background-size: contain;
+    }
+    .div_order_text {
+        float: none;
+        width: 100%;
+        margin-bottom: 40px;
+    }
+    .div_order {
+        background: #fff;
+        padding: 50px 4.5% 10px;
+    }
+    .ul_order {
+        float: none;
+        overflow: hidden;
+        width: 100%;
+        padding-bottom: 40px;
+    }
+    .ul_order li {
+         margin:0  1%;
+
+    }
+    .div_team:before {
+        width: 230px;
+        height: 188px;
+         left: 80px;
+        top: -10px;
+        background-size: contain;
+    }
+    .video_text {
+        float: none;
+        width: 100%;
+        padding-bottom: 30px;
+    }
+    .div_video {
+        padding: 70px 4.5% 0;
+       height: 940px;
+    }
+    .ul_video {
+        float: none;
+        width: 100%;
+        margin-bottom: 110px;
+    }
+    .ul_video li {
+        float: left;
+        width: 31.3%;
+        padding:0 1%;
+    }
+    .interview_left h2 {
+        font-size: 32px;
+        line-height:48px;
+        height: 96px;
+    }
+    .footer{
+        padding: 50px 1.5%;
+    }
+	.delivery_flex{
+	display:block;
+	}
+	.delivery_flex_1, .delivery_flex_2{
+justify-content: space-between;
+display:flex;
+width:100%;
+}
+.delivery_flex_2{
+flex-direction:row-reverse;
+}
+.delivery_flex_2 .delivery_item:before{
+
+background:url(../images/arrow-right.svg) no-repeat;
+
+}
+.delivery_flex_2 .delivery_item:last-child:before{
+  display:none;
+}
+.delivery_flex_1 .delivery_item:last-child:after{
+  display:block;
+position:absolute;
+content:'';
+background:url(../images/arrow-bottom.svg) no-repeat;
+    width: 17px;
+    height: 19px;
+    left: 50%;
+	margin-left:-9px;
+    bottom:-25px;
+}
+.delivery_left {
+    width: 100%;
+    float: none;
+}
+.delivery_right {
+    float: none;
+    width: 100%;
+}
+.ul_order_new{
+text-align:center;
+}
+.ul_order_new li{
+display: inline-block;
+    width: 32.5%;
+    text-align: center;
+    vertical-align: top;
+}
+.ul_order_new .order_svg  {
+     margin: 25px 0;
+}
+.ul_order_new .order_svg svg{
+max-width:163px;
+}
+.order_text_new{
+text-align:center;
+}
+.text_col{
+padding-left:0px;
+width:100%;
+
+float:none;
+}
+.review_page > div {
+    width:100%;
+}
+.contacts_left, .contacts_center, .contacts_right{
+width:100%;
+float:none;
+padding:0;
+}
+.contacts_left{
+padding-bottom:40px;
+}
+}
+@media (max-width: 1200px) {
+    .header{
+        left: -263px;
+        padding-top: 80px;
+    }
+    .section_home{
+        margin: 0 0 0 0px;
+        padding-top: 80px;
+    }
+	.section_page{
+	 margin: 0 0 0 0px;
+	}
+	.footer.footer_notop{
+	margin-left:0;
+	}
+	.page_top_bg{
+	padding-top:120px;
+	}
+    .header_mobil{
+        display: block;
+    }
+	.logo {
+    padding: 50px 0 30px;
+}
+	.header_mobil_small{
+  display:none;
+}
+    .home_slider_top{
+        display: none;
+    }
+    .logo_mobil{
+        display: block;
+    }
+    .slide_left {
+        left: 30px;
+        bottom: 30px;
+    }
+    .slide_right {
+
+        right: 30px;
+        bottom: 30px;
+    }
+    .home_catalog_slider {
+        padding: 73px 15px 0;
+    }
+    .home_catalog_slider h2, .home_catalog_form h2{
+        text-align: left;
+    }
+    .home_catalog_form {
+        padding: 84px 15px 70px;
+    }
+	.page_top_bg{
+	 padding:120px  15px 0;
+	}
+	.footer_padding{
+padding: 50px 15px;
+}
+    .how_order {
+        padding: 179px 15px 67px;
+    }
+    .div_order {
+        padding: 50px 15px 10px;
+    }
+    .div_reviews {
+        padding: 90px 15px 186px;
+    }
+    .div_team {
+        padding: 100px 15px 0;
+    }
+    .div_video {
+        padding: 70px 15px 0;
+    }
+    .div_interview {
+        padding: 200px 15px 123px;
+
+    }
+}
+@media (max-width: 1023px) {
+    .header_mobil_right .request_call.btn {
+        margin: 15px 0 0px 30px;
+    }
+
+	.aquariums_layout{
+	display:none;
+	}
+	.breadcrumbs{
+	margin-bottom:50px;
+	}
+    .header_mobil_right .phone {
+        margin-left: 30px;
+    }
+    .slide_right .btn_purple {
+       display: none;
+    }
+    .slide_right h2 {
+        margin-bottom: 0px;
+    }
+    .aquarium_item, .item_aquarium {
+        width: 50%;
+    }
+	
+    .aquarium_empty2{
+        display: none;
+    }
+    .how_order:before, .order_map, .div_team:before, .video_4 {
+        display: none;
+    }
+	.video_pic > div{
+	width:33.3%;
+	}
+    .home_catalog {
+        padding-bottom: 160px;
+    }
+    .how_order {
+        padding: 100px 15px 40px;
+    }
+    .order_text {
+        width: 100%;
+        float: none;
+        padding-top: 0px;
+    }
+    .ul_order li {
+
+        box-shadow: 0 5px 25px rgba(0, 0, 0, 00);
+
+    }
+    .div_reviews {
+        padding: 70px 15px 70px;
+        background: none;
+    }
+    .div_team {
+        padding: 70px 15px 0;
+    }
+    .slider_reviews.slick-slider {
+        padding: 0 65px 54px;
+
+    }
+	.interview_left {
+    float: none;
+    width: 100%;
+    overflow: hidden;
+}
+.ul_sale{
+display:none;
+}
+.interview_right{
+  padding-top:0;
+  position:absolute;
+  top:218px;
+  right:15px;
+  width:272px;
+}
+.interview_right h3 {
+    font: normal 18px/21px 'Myriad Pro';
+    color: #fff;
+}
+.interview_left h2 {
+    margin-right:300px;
+}
+.div_interview {
+    padding: 165px 15px 123px;
+}
+.span_h3 {
+    line-height: 16px;
+    font-size: 14px;
+    margin-bottom: 0px;
+	margin-top:-19px;
+}
+.interview_hidden {
+    height: auto;
+}
+.interview_right h3 span{
+vertical-align:text-top;
+}
+.footer {
+    padding: 30px 15px;
+}
+.link_footer {
+    float: none;
+	padding-bottom:15px;
+}
+.link_footer a {
+    margin:0 30px 0 0;
+}
+.div_select {
+    float: left;
+    margin-right: 25px;
+	width:214px;
+}
+.about_right{
+display:none;
+}
+.about_left{
+float:none;
+width:100%;
+}
+.delivery_item{
+border:none;
+}
+.delivery_item:before {
+    top: 78px;
+    margin-top: 0px;
+}
+.aquariums_top {
+    overflow: hidden;
+    border:none;
+    border-radius: 0px;
+    padding: 0;
+}
+.aquariums_slider {
+    width: 100%;
+    float: none;
+}
+.aquariums_info{
+ float:none;
+ width:100%;
+ padding-top:40px;
+}
+.div_curbstone_group{
+float:left;
+width:43%;
+}
+.card_button{
+float:right;
+width:46%;
+}
+.div_curbstone_price {
+    float: left;
+}
+.card_button.card_button_new {
+    width: 60%;
+    float: right;
+}
+.section_page{
+padding-bottom:161px;
+}
+.footer.footer_notop{
+margin-top:-161px;
+}
+}
+@media (max-width: 767px) {
+.gallery_item{
+width:100%;
+}
+.header_mobil_right {
+    display:none;
+}
+.header_mobil_small{
+  display:block;
+}
+.logo_mobil {
+   left:0;
+   width:100%;
+   text-align:center;
+   top:50px;
+}
+.home_top .slick-slide{
+height:480px;
+overflow:hidden;
+}
+.home_top .slick-slide img{
+	 display:block;
+	 height:480px;
+	 position:absolute;
+	 left:50%;
+	 margin-left:-489px;
+	}
+	.slide_right{
+	display:none;
+	}
+	.slide_left {
+    left: 30px;
+	right:30px;
+    bottom: 15px;
+}
+.slide_button span {
+    display: block;
+    margin-right: 0px;
+	width:100%;
+	margin-top:15px;
+}
+.slogan {
+    font-size: 20px;
+    line-height: 23px;
+    margin-bottom: 30px;
+}
+.slide_left h1 {
+    font: 28px/33px 'Museo Sans Cyrl 500';
+
+    margin-bottom: 15px;
+}
+h2 {
+    font: 28px/33px 'Museo Sans Cyrl 500';
+    color: #fff;
+    margin-bottom: 50px;
+    text-align: center;
+}
+.filtr{
+display:block;
+}
+.aquarium_catalog {
+    margin: 0;
+    overflow: hidden;
+}
+.aquarium_item {
+    padding: 0 0px 15px;
+    float: none;
+    width: 100%;
+}
+.item_aquarium{
+width:100%;
+}
+.div_svg {
+    height: 92px;
+    text-align: center;
+    line-height: 92px;
+	width:92px;
+	margin-right:26px;
+	display:inline-block;
+	vertical-align:middle;
+}
+.div_svg svg{
+width:65px;
+height:auto;
+}
+.aquarium_item span {
+    display: inline-block;
+	vertical-align:middle;
+    text-align: center;
+    font: normal 18px/21px 'Myriad Pro';
+    text-transform: uppercase;
+    padding: 29px 0;
+}
+.home_catalog_form {
+    padding: 70px 15px 55px;
+}
+.page_top_bg{
+padding:120px  15px 0;
+}
+.footer_padding{
+padding: 50px 15px;
+}
+.how_order {
+    background:none;
+    position: relative;
+    padding: 70px 15px 50px;
+    margin-top: 0;
+    position: relative;
+}
+.home_catalog {
+    padding-bottom:0px;
+}
+.order_text h3, .div_order_text h3 {
+    font: 28px/33px 'Museo Sans Cyrl 500', Arial, Helvetica, sans-serif;
+}
+body {
+    font: normal 16px/24px 'Myriad Pro', Arial, Helvetica, sans-serif;
+}
+.div_order {
+    padding: 0px 15px 10px;
+}
+.ul_order li {
+    margin-left: 0%;
+    width: 100%;
+    padding-bottom: 25px;
+}
+.reviews_conteiner {
+    padding: 30px 15px;
+}
+.reviews_text {
+    float: none;
+    width: 100%;
+	padding-bottom:20px;
+}
+.reviews_pic {
+    float: none;
+    width: 100%;
+}
+.slick-slide .reviews_pic a{
+display:none;
+}
+.div_team{
+display:none;
+}
+.ul_video li {
+    float: none;
+    width: 100%;
+    padding: 0 0% 30px;
+}
+.video_text h2 {
+
+    margin-bottom:15px;
+
+}
+.video_svg {
+    float: left;
+    margin-right: 15px;
+}
+.ul_video {
+    margin-bottom: 46px;
+}
+.video_3{
+display:none;
+}
+.video_pic > div {
+    height: 120px;
+	    width: 50%;
+}
+.video_pic > div img{
+  
+}
+.video_pic {
+    margin: 69px -15px -100px;
+    display: flex;
+    justify-content: center;
+}
+.div_video {
+    height: 920px;
+}
+.div_interview {
+    padding: 201px 15px 123px;
+}
+.interview_right {
+    top: 109px;
+    right: auto;
+    width: 100%;
+	left:15px;
+}
+.interview_left h2 {
+    font-size: 24px;
+    line-height: 34px;
+    height: 68px;
+	    margin-right: 0px;
+}
+.div_radio_one {
+    float: none;
+    width: 100%;
+    margin-bottom: 30px;
+}
+.div_svg_one {
+    width: 100%;
+    float: none;
+    margin-bottom: 30px;
+    text-align: left;
+	display:flex;
+	    align-items: center;
+}
+.interview_svg {
+    margin-right:30px;
+}
+.div_form_right {
+    float: none;
+    width: 100%;
+    margin-left: 0%;
+	margin-bottom:30px;
+}
+.div_form_left {
+    width: 100%;
+}
+.link_footer a {
+display:block;
+    margin: 0 0px 15px 0;
+}
+.link_footer {
+    float: none;
+    padding-bottom: 0px;
+}
+.footer{
+margin-top:-162px;
+}
+.copy {
+    float: none;
+    font-size: 15px;
+}
+.div_select {
+    float: none;
+    margin-right: 0px;
+	width:100%;
+	margin-bottom:15px;
+}
+.section_page h1 {
+    font: 28px/33px 'Museo Sans Cyrl 500';
+}
+.div_quantity{
+display:none;
+}
+.section_page_bottom {
+    display: block;
+    text-align:center;
+}
+.navigation{
+float:none;
+display:inline-block;
+}
+.delivery_flex_1, .delivery_flex_2{
+display:block;
+
+}
+.delivery_item{
+ width:100%;
+ text-align:left;
+}
+.delivery_flex{
+margin:0;
+}
+.delivery_item{
+padding:0px;
+margin: 00 0 30px;
+}
+.delivery_img {
+    padding: 0px;
+    height: auto;
+	width:48px;
+	display:inline-block;
+	vertical-align:middle;
+	 line-height:55px;
+	  margin-right:37px;
+}
+.delivery_img img{
+ width:48px;
+ height:auto;
+ vertical-align:middle;
+}
+.delivery_item span{
+display:inline-block;
+vertical-align:middle;
+width:70%;
+padding:0;
+}
+.delivery_flex_1 .delivery_item:last-child:after {
+    display: none;
+}
+.delivery_item:before {
+    display: block;
+    position: absolute;
+    content: '';
+    background: url(../images/arrow-bottom.svg) no-repeat;
+    width: 17px;
+    height: 19px;
+    left: 13px;
+    top: -25px;
+    margin-top: 0px;
+
+}
+.delivery_flex_2 .delivery_item:before {
+    background: url(../images/arrow-bottom.svg) no-repeat;
+}
+.delivery_flex_2 .delivery_item:last-child:before{
+display:block;
+}
+.ul_order_new {
+    text-align: left;
+	
+}
+.ul_order_new li {
+    display: block;
+    width: 100%;
+    text-align: left;
+	margin-bottom:20px;
+}
+.ul_order_new .order_svg {
+   height: 100px;
+    line-height: 100px;
+    display: inline-block;
+    vertical-align: middle;
+    width: 95px;
+
+	    margin: 0px 20px 0 0;
+}
+.ul_order_new .order_svg svg{
+max-height:100px;
+max-width:95px;
+}
+.order_text_new{
+display:inline-block;
+vertical-align:middle;
+font-size:14px;
+line-height:20px;
+text-align:left;
+width:61%;
+}
+.order_text_new h4{
+    font: 600 16px/23px 'Myriad Pro', Arial, Helvetica, sans-serif;
+	margin-bottom:5px;
+}
+.slick-slide .reviews_pic a {
+    display: none;
+}
+.reviews_pic a {
+    display: none;
+}
+.div_curbstone_group{
+float:none;
+width:100%;
+}
+.card_button{
+float:none;
+width:100%;
+}
+.card_tabs_head li{
+padding:0 5px;
+    font-size: 12px;
+}
+.card_button.card_button_new{
+width:100%;
+float:none;
+}
+.div_curbstone_price {
+    float: none;
+}
+.card_tabs_body {
+    padding: 42px 10px 10px;
+    border: 2px solid #E0E0E0;
+}
+.div_popap{
+
+    margin-left: -150px;
+
+    width: 300px;
+    padding: 40px 30px;
+
+}
+.card_button .btn {
+    width: 132px;
+}
+.characteristics ul li{
+font-size:12px;
+}
+.section_page{
+padding-bottom:199px;
+}
+.footer.footer_notop{
+margin-top:-199px;
+}
+.section_page .aquariums_info h1 {
+    font: 22px/31px 'Museo Sans Cyrl 500';
+}
+}
